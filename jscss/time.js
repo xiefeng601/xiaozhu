@@ -14,13 +14,13 @@ function showTime() {
 	if (seconds < 10) 
 	seconds = "0" + seconds; 
 	var currentTimeString = "Dear Zhu:<br>"
-		+ "I have been in love with you for:<br> "
+		+ "I have been in love with you for（QQ小草已经:<br> "
 		+ "&nbsp&nbsp&nbsp&nbsp&nbsp"
 		+ "<c style=\"color: #CCFF99; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:24px\" >" + days +" </c>day " 
 		+ "<c style=\"color: #CCFF99; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:24px\" >" + hours+" </c>hour "
 		+"<c style=\"color: #CCFF99; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:24px\" >" + minutes+" </c>min "
 		+"<c style=\"color: #CCFF99; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:24px\" >" +seconds+" </c>sec<br>"
-
+                +"时分秒我乱加的，是不是很高级^_^<br>"
 		+	"<c style=\"color: #CCCCCC; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:20px\" >----ZRH   2022-05-17</c>"; 
 	document.getElementById("show").innerHTML=currentTimeString;  //����ط�
 	window.setTimeout("showTime()", 1000); 
